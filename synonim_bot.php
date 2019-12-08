@@ -90,8 +90,8 @@ function processMessage($message) {
     
     // идем в словарь без спеллинга
     $arr = getSyn($inputText);
-    error_log("ввод: $inputText\n", 3, "1test.log");
-    error_log('getSyn: '.print_r($arr, true)."\n", 3, '1test.log');
+//    error_log("ввод: $inputText\n", 3, "1test.log");
+//    error_log('getSyn: '.print_r($arr, true)."\n", 3, '1test.log');
 
 
     // если ничего нет то возможно это опечатка
